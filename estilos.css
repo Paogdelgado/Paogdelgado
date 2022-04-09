@@ -1,0 +1,129 @@
+html{
+    height: 100%;
+    }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#7209b7, #f72585);
+    ;
+    }
+
+.contenedor{
+    width: 300px;
+    height: 550px;
+    padding: 35px;
+    background: white;
+    margin: 80px auto;
+    border-radius: 5px;
+ 
+}
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.contenedor .elemento label{
+    color: #fff;
+    }
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #141414;
+    background: transparent;
+    border: #141414;
+    border-bottom: 2px #fff;
+    margin-bottom: 30px;
+}    
+.contenedor .elemento input[type="submit"]{
+    background: linear-gradient(#7209b7, #f72585);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.contenedor .elemento input[type="text"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    border: solid 2px;
+    color: #d3d3d3;
+    padding-inline-start: 15px;
+    border-radius: 5px;
+    }
+
+.contenedor .elemento input[type="password"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    border: solid 2px;
+    color: #d3d3d3;
+    padding-inline-start: 15px;
+    border-radius: 5px;
+    }
+
+.contenedor .elemento a{
+    color: #f72585;
+}
+    
+.contenedor p{
+    height: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.contenedor a{
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn-ghost{
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    padding: 20px 50px;
+    background: linear-gradient(#7209b7, #f72585);
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #d3d3d3;
+    border-radius: 10px;
+    
+}
+
+.btn-ghost2{
+    color: black ;
+    border-color: #d3d3d3;
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    padding: 20px 43px;
+    background: transparent;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    border-color: #d3d3d3;
+}
+
+.btn-ghost:hover{
+    color: black;
+    background: transparent;
+}
+
+.btn-ghost2:hover{
+    color: black;
+    background: linear-gradient(#7209b7, #f72585);
+}
